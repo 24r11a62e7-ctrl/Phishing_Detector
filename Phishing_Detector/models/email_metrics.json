@@ -1,0 +1,55 @@
+{
+  "best": "Logistic Regression",
+  "results": {
+    "Random Forest": {
+      "accuracy": 0.9743443557582668,
+      "precision": 0.9539375928677564,
+      "recall": 0.9786585365853658,
+      "f1": 0.9661399548532731,
+      "confusion_matrix": [
+        [
+          2134,
+          62
+        ],
+        [
+          28,
+          1284
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9783352337514253,
+      "precision": 0.9835680751173709,
+      "recall": 0.958079268292683,
+      "f1": 0.9706563706563707,
+      "confusion_matrix": [
+        [
+          2175,
+          21
+        ],
+        [
+          55,
+          1257
+        ]
+      ]
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9751995438996579,
+      "precision": 0.9834254143646409,
+      "recall": 0.9496951219512195,
+      "f1": 0.9662659945715394,
+      "confusion_matrix": [
+        [
+          2175,
+          21
+        ],
+        [
+          66,
+          1246
+        ]
+      ]
+    }
+  },
+  "train_size": 14028,
+  "test_size": 3508
+}
